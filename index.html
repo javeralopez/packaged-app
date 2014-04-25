@@ -1,13 +1,16 @@
 <html>
   <body>
     <p>Packaged app installation page</p>
+    <button>Install</button>
     <script>
-      // This URL must be a full url.
-      var manifestUrl = 'https://ozten.github.io/packaged-app/manifest.webapp';
-      var req = navigator.mozApps.installPackage(manifestUrl);
-      req.onerror = function() {
-        alert('Error installing ' + this.error.name);
-      };
+var manifestUrl = 'https://ozten.github.io/packaged-app/manifest.webapp';
+var btn = document.getElementsByTagName('button')[0];
+btn.addEventListener('click', function(e) {
+  var req = navigator.mozApps.installPackage(manifestUrl);
+  req.onerror = function() {
+    alert('Error installing ' + this.error.name);
+  };
+}, false);    
     </script>
   </body>
 </html>
