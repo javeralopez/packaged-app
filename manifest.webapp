@@ -3,7 +3,7 @@
   "description": "A testing packaged app",
   "version": "1",
   "package_path": "https://ozten.github.io/packaged-app/package.zip",
-  "size": 15423,
+  "size": 15413,
   "icons": {
     "60": "/i/packaged60.jpg",
     "128": "/i/packaged128.jpg",
