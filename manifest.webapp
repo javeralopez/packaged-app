@@ -1,5 +1,5 @@
 {
-  "name": "Sample Packaged App",
+  "name": "Packaged",
   "description": "A testing packaged app",
   "version": "1",
   "package_path": "https://ozten.github.io/packaged-app/package.zip",
