@@ -6,10 +6,10 @@
       var manifestUrl = 'https://ozten.github.io/packaged-app/manifest.webapp';
       var req = navigator.mozApps.installPackage(manifestUrl);
       req.onsuccess = function() {
-        alert(this.result.origin);
+        alert('Success ' + this.result.origin);
       };
       req.onerror = function() {
-        alert(this.error.name);
+        alert('Error ' + this.error.name);
       };
     </script>
   </body>
