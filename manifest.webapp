@@ -2,7 +2,7 @@
   "name": "Packaged",
   "description": "A testing packaged app",
   "version": "1",
-  "package_path": "https://ozten.github.io/packaged-app/package.zip",
+  "package_path": "http://estudioradio.com/packaged-app/package.zip",
   "size": 15780,
   "icons": {
     "60": "/i/packaged60.jpg",
